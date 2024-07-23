@@ -1,0 +1,60 @@
+body{
+    justify-content: center;
+    padding: 100px 100px;
+    display: flex; 
+    background-color: rgb(54, 67, 67);
+
+}
+.environment{
+    justify-content: space-evenly;
+    background-color: rgb(236, 241, 244);
+    border-radius: 10px  10px 1px 1px;
+    padding: 15px
+}
+
+.calculate{
+    
+}
+#inputBox{
+    padding: 40px 90px;
+    border: 10px solid rgb(22, 36, 65);
+    border-radius: 10px  10px 1px 1px;
+}
+.buttons{
+    background-color:rgb(24, 41, 74);
+    color:white;
+    padding: 30px 38px;
+    border-radius: 50px  50px 50px 50px;
+    justify-content: space-around;
+}
+.buttons:hover{
+    background-color:rgb(66, 99, 164);
+}
+.clear{
+    background-color: rgb(241, 78, 78);
+    padding: 20px 30px;
+    border-radius: 10px  10px 10px 10px;
+}
+.clear:hover{
+    background-color:rgb(235, 131, 131);
+}
+.delete{
+    background-color: rgb(241, 78, 78);
+    padding: 20px 27px;
+    border-radius: 10px  10px 10px 10px;
+}
+.delete:hover{
+    background-color:rgb(235, 131, 131);
+}
+
+::placeholder{
+    font-size: 30px;
+    color:black;
+    padding-left: 9rem;
+    
+}
+input {
+    font-size: 13px;
+    color:black;
+     padding-left: 9rem;
+}
